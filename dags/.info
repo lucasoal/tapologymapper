@@ -1,0 +1,16 @@
+PASTA: dags
+
+    FUNÇÃO:
+    - Contém os DAGs (pipelines) do Airflow
+
+    O QUE COLOCAR AQUI:
+    - Arquivos Python (.py)
+    - Definições de workflows
+
+    COMO FUNCIONA:
+    - O Airflow lê automaticamente essa pasta
+    - Cada arquivo vira um DAG na interface
+
+    IMPORTANTE:
+    - É a pasta principal do projeto
+    - Sem DAGs aqui, nada roda

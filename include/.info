@@ -1,0 +1,17 @@
+PASTA: include
+
+FUNÇÃO:
+- Armazenar arquivos auxiliares usados pelos DAGs
+
+O QUE COLOCAR AQUI:
+- Scripts Python reutilizáveis
+- Arquivos SQL
+- JSON, YAML e configs
+- Templates
+
+COMO FUNCIONA:
+- Os DAGs acessam esses arquivos quando necessário
+
+IMPORTANTE:
+- Ajuda a manter os DAGs organizados
+- Evita código duplicado

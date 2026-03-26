@@ -1,0 +1,16 @@
+PASTA: plugins
+
+    FUNÇÃO:
+    - Estender funcionalidades do Airflow
+
+    O QUE COLOCAR AQUI:
+    - Operators personalizados
+    - Hooks
+    - Sensors
+
+    COMO FUNCIONA:
+    - O Airflow carrega automaticamente esses plugins
+
+    IMPORTANTE:
+    - Uso avançado
+    - Só necessário quando o Airflow padrão não atende

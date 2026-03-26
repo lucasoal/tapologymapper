@@ -1,0 +1,15 @@
+PASTA: tests
+
+    FUNÇÃO:
+    - Testar o projeto
+
+    O QUE COLOCAR AQUI:
+    - Testes de DAGs
+    - Testes de funções
+    - Testes com pytest
+
+    COMO FUNCIONA:
+    - Executado manualmente ou em CI/CD
+
+    IMPORTANTE:
+    - Garante qualidade e evita erros em produção
