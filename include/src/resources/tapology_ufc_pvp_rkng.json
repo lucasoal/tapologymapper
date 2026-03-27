@@ -1,0 +1,752 @@
+[
+  {
+    "rank": 1,
+    "fighter": "Islam Makhachev",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/40148-islam-makhachev"
+  },
+  {
+    "rank": 2,
+    "fighter": "Ilia 'El Matador' Topuria",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/129278-ilia-topuria"
+  },
+  {
+    "rank": 3,
+    "fighter": "Alex 'Poatan' Pereira",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/117305-alex-pereira"
+  },
+  {
+    "rank": 4,
+    "fighter": "Alexander 'The Great' Volkanovski",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/41705-alex-volkanski"
+  },
+  {
+    "rank": 5,
+    "fighter": "Khamzat 'Borz' Chimaev",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/188143-khamzat-girikhanov"
+  },
+  {
+    "rank": 6,
+    "fighter": "Petr 'No Mercy' Yan",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/90075-petr-yan"
+  },
+  {
+    "rank": 7,
+    "fighter": "Merab 'The Machine' Dvalishvili",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/47934-merab-dvalishvili"
+  },
+  {
+    "rank": 8,
+    "fighter": "Alexandre 'The Cannibal' Pantoja",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/12767-alexandre-pantoja"
+  },
+  {
+    "rank": 9,
+    "fighter": "Tom Aspinall",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/23273-tom-aspinall"
+  },
+  {
+    "rank": 10,
+    "fighter": "Charles 'do Bronxs' Oliveira",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/charles-oliveira-do-bronx"
+  },
+  {
+    "rank": 11,
+    "fighter": "Arman 'Ahalkalakets' Tsarukyan",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/115752-arman-tsarukyan"
+  },
+  {
+    "rank": 12,
+    "fighter": "Joshua 'The Fearless' Van",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/254261-joshua-thawng"
+  },
+  {
+    "rank": 13,
+    "fighter": "Dricus 'Stillknocks' Du Plessis",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/51267-dricus-du-plessis-stilknocks"
+  },
+  {
+    "rank": 14,
+    "fighter": "Jack Della Maddalena",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/119831-jack-della-maddalena"
+  },
+  {
+    "rank": 15,
+    "fighter": "Max 'Blessed' Holloway",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/12723-max-holloway-lil-evil"
+  },
+  {
+    "rank": 16,
+    "fighter": "Magomed Ankalaev",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/83405-magomed-ankalaev"
+  },
+  {
+    "rank": 17,
+    "fighter": "Jiří Procházka",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/34779-jiri-prochazka"
+  },
+  {
+    "rank": 18,
+    "fighter": "Sean Strickland",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/6055-sean-strickland-tarzan"
+  },
+  {
+    "rank": 19,
+    "fighter": "Nassourdine 'The Sniper' Imavov",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/125404-nassourdine-imavov"
+  },
+  {
+    "rank": 20,
+    "fighter": "Movsar Evloev",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/85897-movsar-evloev"
+  },
+  {
+    "rank": 21,
+    "fighter": "Justin 'The Highlight' Gaethje",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/16421-justin-gaethje"
+  },
+  {
+    "rank": 22,
+    "fighter": "'The Future' Ian Machado Garry",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/171377-ian-garry"
+  },
+  {
+    "rank": 23,
+    "fighter": "Umar Nurmagomedov",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/134206-omar-nurmagomedov"
+  },
+  {
+    "rank": 24,
+    "fighter": "'Suga' Sean O'Malley",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/68186-sean-omalley"
+  },
+  {
+    "rank": 25,
+    "fighter": "Belal 'Remember the fighter' Muhammad",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/32797-belal-muhammad"
+  },
+  {
+    "rank": 26,
+    "fighter": "Michael Morales",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/164286-michael-morales"
+  },
+  {
+    "rank": 27,
+    "fighter": "Ciryl 'Bon Gamin' Gane",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/187819-cyril-gane-real-c"
+  },
+  {
+    "rank": 28,
+    "fighter": "Kamaru 'The Nigerian Nightmare' Usman",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/39265-kamarudeen-usman"
+  },
+  {
+    "rank": 29,
+    "fighter": "Aljamain 'Funk Master' Sterling",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/aljamain-sterling"
+  },
+  {
+    "rank": 30,
+    "fighter": "Diego Lopes",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/85643-diego-lopes"
+  },
+  {
+    "rank": 31,
+    "fighter": "Carlos 'The Nightmare' Prates",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/36554-carlos-prates-carlao"
+  },
+  {
+    "rank": 32,
+    "fighter": "Israel 'The Last Stylebender' Adesanya",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/79163-israel-adesanya"
+  },
+  {
+    "rank": 33,
+    "fighter": "Carlos 'Black Jag' Ulberg",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/203365-carlos-ulberg-mr-marvelous"
+  },
+  {
+    "rank": 34,
+    "fighter": "Cory Sandhagen",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/32931-cory-sandhagen"
+  },
+  {
+    "rank": 35,
+    "fighter": "Sean Brady",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/32242-sean-brady"
+  },
+  {
+    "rank": 36,
+    "fighter": "Manel 'StarBoy' Kape",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/70075-manel-kape-prodigio"
+  },
+  {
+    "rank": 37,
+    "fighter": "Tatsuro 'The Best' Taira",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/145595-tatsuro-taira"
+  },
+  {
+    "rank": 38,
+    "fighter": "Alexander 'Drago' Volkov",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/alexander-volkov"
+  },
+  {
+    "rank": 39,
+    "fighter": "'The Miracle' Lerone Murphy",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/84753-lerone-murphy"
+  },
+  {
+    "rank": 40,
+    "fighter": "Leon 'Rocky' Edwards",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/21429-leon-edwards"
+  },
+  {
+    "rank": 41,
+    "fighter": "Anthony 'Fluffy' Hernandez",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/41538-anthony-hernandez"
+  },
+  {
+    "rank": 42,
+    "fighter": "Benoit 'God of War' Saint-Denis",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/212810-benoit-saint-denis"
+  },
+  {
+    "rank": 43,
+    "fighter": "Brandon 'Raw Dawg' Royval",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/25031-brandon-royval"
+  },
+  {
+    "rank": 44,
+    "fighter": "Sergei Pavlovich",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/89112-sergey-pavlovich"
+  },
+  {
+    "rank": 45,
+    "fighter": "Jamahal 'Sweet Dreams' Hill",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/120815-jamahal-hill"
+  },
+  {
+    "rank": 46,
+    "fighter": "Brandon 'The Assassin Baby' Moreno",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/27833-brandon-moreno-the-assassin"
+  },
+  {
+    "rank": 47,
+    "fighter": "Yadong 'Kung Fu Kid' Song",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/47836-yadong-song"
+  },
+  {
+    "rank": 48,
+    "fighter": "Brendan 'All In' Allen",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/91516-brendan-allen"
+  },
+  {
+    "rank": 49,
+    "fighter": "Joaquin 'New Mansa' Buckley",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/55022-joaquin-buckley"
+  },
+  {
+    "rank": 50,
+    "fighter": "Khalil Rountree Jr.",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/47284-khalil-rountree-the-war-horse"
+  },
+  {
+    "rank": null,
+    "fighter": "Melquizael 'The Dalmatian' Costa",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/101043-melquizael-costa-melkcalty"
+  },
+  {
+    "rank": null,
+    "fighter": "Melquizael Costa",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/101043-melquizael-costa-melkcalty"
+  },
+  {
+    "rank": null,
+    "fighter": "Mountain Tiger Mingyang Zhang",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/102827-mingyang-zhang"
+  },
+  {
+    "rank": null,
+    "fighter": "The Auditor Jakub Kaszuba",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/104186-kuba-kaszuba"
+  },
+  {
+    "rank": null,
+    "fighter": "Jakub Kaszuba",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/104186-kuba-kaszuba"
+  },
+  {
+    "rank": null,
+    "fighter": "Sergey Bilostenniy",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/104366-sergey-belostenniy"
+  },
+  {
+    "rank": null,
+    "fighter": "David Onama",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/104455-david-onama"
+  },
+  {
+    "rank": null,
+    "fighter": "Fabian 'The Assassin' Edwards",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/106608-fabian-edwards"
+  },
+  {
+    "rank": null,
+    "fighter": "Caio 'The Natural' Borralho",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/107316-caio-borralho-cara-de-kombi"
+  },
+  {
+    "rank": null,
+    "fighter": "Rafael 'Ataman' Fiziev",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/108035-rafael-fiziev"
+  },
+  {
+    "rank": null,
+    "fighter": "Ikram Aliskerov",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/108253-ikram-aliskerov"
+  },
+  {
+    "rank": null,
+    "fighter": "Ikram Aliskerov",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/108253-ikram-aliskerov"
+  },
+  {
+    "rank": null,
+    "fighter": "Logan 'Storm' Storley",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/109294-logan-storley-storm"
+  },
+  {
+    "rank": null,
+    "fighter": "Logan Storley",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/109294-logan-storley-storm"
+  },
+  {
+    "rank": null,
+    "fighter": "Lance Gibson Jr.",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/109346-lance-gibson-jr"
+  },
+  {
+    "rank": null,
+    "fighter": "Youssef 'The Moroccan Devil' Zalal",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/110826-youssef-zalaal"
+  },
+  {
+    "rank": null,
+    "fighter": "Mehdi Baydulaev",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/112083-mehdi-baydulaev"
+  },
+  {
+    "rank": null,
+    "fighter": "Lone'er Kavanagh",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/112229-loneer-kavanagh"
+  },
+  {
+    "rank": null,
+    "fighter": "CLD Christian Leroy Duncan",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/116334-christian-duncan"
+  },
+  {
+    "rank": null,
+    "fighter": "Fares 'Smile Killer' Ziam",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/119061-fares-ziam"
+  },
+  {
+    "rank": null,
+    "fighter": "Muhammad 'The Punisher' Mokaev",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/120417-muhammad-mokaev"
+  },
+  {
+    "rank": null,
+    "fighter": "Tai 'Bam Bam' Tuivasa",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/120884-tai-tuivasa-bam-bam"
+  },
+  {
+    "rank": null,
+    "fighter": "Aleksandr 'Pretty Boy' Chizov",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/123467-aleksandrs-iovs"
+  },
+  {
+    "rank": null,
+    "fighter": "Esteban Ribovics",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/124969-esteban-ribovics"
+  },
+  {
+    "rank": null,
+    "fighter": "Asu 'Zulfikar' Almabayev",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/127726-khamzat-sakalov"
+  },
+  {
+    "rank": null,
+    "fighter": "Ferocious Farid Basharat",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/127815-farid-bashrat"
+  },
+  {
+    "rank": null,
+    "fighter": "Tagir Ulanbekov",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/130955-tagir-ulanbekov"
+  },
+  {
+    "rank": null,
+    "fighter": "Luke 'The Gent' Trainer",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/131205-luke-trainer"
+  },
+  {
+    "rank": null,
+    "fighter": "Denis 'The Russian Bogatyr' Goltsov",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/13594-Denis-Goltsov"
+  },
+  {
+    "rank": null,
+    "fighter": "Jay Jay Wilson",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/136000-jay-jay-wilson"
+  },
+  {
+    "rank": null,
+    "fighter": "Bogdan 'Hitman' Guskov",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/136052-bogdan-guskov"
+  },
+  {
+    "rank": null,
+    "fighter": "Bogdan Guskov",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/136052-bogdan-guskov"
+  },
+  {
+    "rank": null,
+    "fighter": "David Martinez",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/138373-david-martinez"
+  },
+  {
+    "rank": null,
+    "fighter": "Roman Kopylov",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/138424-roman-kopylov"
+  },
+  {
+    "rank": null,
+    "fighter": "Linton 'The Big Swarm' Vassell",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/13890-Linton-Vassell"
+  },
+  {
+    "rank": null,
+    "fighter": "Jack 'The Joker' Hermansson",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/13893-Jack-Hermansson"
+  },
+  {
+    "rank": null,
+    "fighter": "Magomed 'Prince' Umalatov",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/139604-magomed-umalatov"
+  },
+  {
+    "rank": null,
+    "fighter": "Derrick 'The Black Beast' Lewis",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/14023-derrick-lewis-the-black-beast"
+  },
+  {
+    "rank": null,
+    "fighter": "Johnny 'Pressure' Eblen",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/140953-johnny-eblen-john"
+  },
+  {
+    "rank": null,
+    "fighter": "Johnny Eblen",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/140953-johnny-eblen-john"
+  },
+  {
+    "rank": null,
+    "fighter": "Tyrell Fortune",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/141665-tyrell-fortune"
+  },
+  {
+    "rank": null,
+    "fighter": "Timur 'Imam' Khizriev",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/142463-imam-khizriev"
+  },
+  {
+    "rank": null,
+    "fighter": "Jean 'Lord' Silva",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/144286-jean-silva"
+  },
+  {
+    "rank": null,
+    "fighter": "Joe 'Bodybagz' Pyfer",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/144942-joseph-pyfer"
+  },
+  {
+    "rank": null,
+    "fighter": "The Notorious Conor McGregor",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/14607-conor-mcgregor"
+  },
+  {
+    "rank": null,
+    "fighter": "Roman Dolidze",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/147160-roman-dolidze"
+  },
+  {
+    "rank": null,
+    "fighter": "Impa Kasanganay",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/148267-impa-kasanganay"
+  },
+  {
+    "rank": null,
+    "fighter": "Chris 'Action-Man' Curtis",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/14863-christopher-curtis-the-action-man"
+  },
+  {
+    "rank": null,
+    "fighter": "Dustin 'The Hanyak' Jacoby",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/15069-dustin-jacoby"
+  },
+  {
+    "rank": null,
+    "fighter": "Jailton 'Malhadinho' Almeida",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/151690-jailton-junior-malhadinho"
+  },
+  {
+    "rank": null,
+    "fighter": "Dalton 'Hercules' Rosta",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/152013-dalton-rosta"
+  },
+  {
+    "rank": null,
+    "fighter": "Michael 'Maverick' Chiesa",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/15253-mike-chiesa-maverick"
+  },
+  {
+    "rank": null,
+    "fighter": "Bryan 'The Butcher' Battle",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/153353-bryan-battle"
+  },
+  {
+    "rank": null,
+    "fighter": "Bryan Battle",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/153353-bryan-battle"
+  },
+  {
+    "rank": null,
+    "fighter": "Chase 'The Dream' Hooper",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/158947-chase-hooper"
+  },
+  {
+    "rank": null,
+    "fighter": "Soldier of God Romero",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/16155-yoel-romero-palacio"
+  },
+  {
+    "rank": null,
+    "fighter": "Neil 'The Haitian Sensation' Magny",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/16456-aoutneil-magny"
+  },
+  {
+    "rank": null,
+    "fighter": "Marco Tulio",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/165750-marco-tulio-silva"
+  },
+  {
+    "rank": null,
+    "fighter": "Vicente 'The Silent Assassin' Luque",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/16651-vicente-luque"
+  },
+  {
+    "rank": null,
+    "fighter": "Vicente Luque",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/16651-vicente-luque"
+  },
+  {
+    "rank": null,
+    "fighter": "Anatoly 'Sladkiy' Malykhin",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/166677-anatoliy-malykhin"
+  },
+  {
+    "rank": null,
+    "fighter": "Stephen 'Wonderboy' Thompson",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/16753-stephen-thompson-wonderboy"
+  },
+  {
+    "rank": null,
+    "fighter": "Lewis 'The McGrizzla' McGrillen",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/168234-lewis-mcgrillen-evans"
+  },
+  {
+    "rank": null,
+    "fighter": "Renato Moicano",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/16950-renato-carneiro-moicano"
+  },
+  {
+    "rank": null,
+    "fighter": "Sergio 'The Phenom' Pettis",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/17135-sergio-pettis"
+  },
+  {
+    "rank": null,
+    "fighter": "Robert 'The Reaper' Whittaker",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/17398-robert-whittaker"
+  },
+  {
+    "rank": null,
+    "fighter": "Thad 'The Silverback' Jean",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/174385-thad-jean"
+  },
+  {
+    "rank": null,
+    "fighter": "Uros 'The Doctor' Medic",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/175629-uros-medic"
+  },
+  {
+    "rank": null,
+    "fighter": "Sullivan 'Sully' Cauley",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/175706-sullivan-cauley"
+  },
+  {
+    "rank": null,
+    "fighter": "Payton Talbott",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/181513-payton-talbout"
+  },
+  {
+    "rank": null,
+    "fighter": "Darragh 'The Moville Mauler' Kelly",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/182192-darragh-kelly"
+  },
+  {
+    "rank": null,
+    "fighter": "Myktybek Orolbai",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/182971-myktybek-orolbaev"
+  },
+  {
+    "rank": null,
+    "fighter": "Nicolas 'Lokomotivo' Dalby",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/18302-nicolas-dalby"
+  },
+  {
+    "rank": null,
+    "fighter": "Julian 'Juicy J' Erosa",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/18497-julian-erosa"
+  },
+  {
+    "rank": null,
+    "fighter": "Khabib 'The Eagle' Nurmagomedov",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/18536-khabib-nurmagomedov"
+  },
+  {
+    "rank": null,
+    "fighter": "Dan 'The Hangman' Hooker",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/18854-daniel-hooker"
+  },
+  {
+    "rank": null,
+    "fighter": "Gabriel Braga",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/190856-gabriel-alves"
+  },
+  {
+    "rank": null,
+    "fighter": "T.J. Dillashaw",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/19126-tj-dillashaw"
+  },
+  {
+    "rank": null,
+    "fighter": "Manuel 'El Loco' Torres",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/194607-manuel-torres-el-loco"
+  },
+  {
+    "rank": null,
+    "fighter": "Usman Nurmagomedov",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/194617-osman-nurmagomedov"
+  },
+  {
+    "rank": null,
+    "fighter": "Quillan Salkilld",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/195051-quilland-salkid"
+  },
+  {
+    "rank": null,
+    "fighter": "Kyoji 'Karate Kid' Horiguchi",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/19983-kyoji-horiguchi"
+  },
+  {
+    "rank": null,
+    "fighter": "Beneil Dariush",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/20010-beneil-dariush-benny"
+  },
+  {
+    "rank": null,
+    "fighter": "Geoff 'Handz of Steel' Neal",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/20058-geoffrey-neal"
+  },
+  {
+    "rank": null,
+    "fighter": "Michael 'Venom' Page",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/21208-michael-page"
+  },
+  {
+    "rank": null,
+    "fighter": "Randy 'Rudeboy' Brown",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/21348-randall-brown-rude-boy"
+  },
+  {
+    "rank": null,
+    "fighter": "Randy Brown",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/21348-randall-brown-rude-boy"
+  },
+  {
+    "rank": null,
+    "fighter": "Yuta Kubo",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/215278-yuta-kubo"
+  },
+  {
+    "rank": null,
+    "fighter": "Shara Magomedov",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/218307-sharaputdin-magomedov-golden-boy"
+  },
+  {
+    "rank": null,
+    "fighter": "Brunno 'The Hulk' Ferreira",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/218790-bruno-the-hulk"
+  },
+  {
+    "rank": null,
+    "fighter": "Brunno Ferreira",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/218790-bruno-the-hulk"
+  },
+  {
+    "rank": null,
+    "fighter": "Niko Price",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/22461-nico-price"
+  },
+  {
+    "rank": null,
+    "fighter": "Aleksander 'Peresvet' Shabliy",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/22594-alexander-shabliy"
+  },
+  {
+    "rank": null,
+    "fighter": "Proper Mike Malott",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/22740-mike-malott"
+  },
+  {
+    "rank": null,
+    "fighter": "Mike Malott",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/22740-mike-malott"
+  },
+  {
+    "rank": null,
+    "fighter": "Kevin 'El Chino' Vallejos",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/227542-kevin-vallejos"
+  },
+  {
+    "rank": null,
+    "fighter": "Sean Sharaf",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/229173-sean-sharaf"
+  },
+  {
+    "rank": null,
+    "fighter": "Renat Khavalov",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/230128-renat-khavalov"
+  },
+  {
+    "rank": null,
+    "fighter": "Razhabali Shaydullaev",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/233061-razhab-shaydullaev"
+  },
+  {
+    "rank": null,
+    "fighter": "Arnold 'Almighty' Allen",
+    "url_tapology": "https://tapology.com/fightcenter/fighters/23359-arnold-allen"
+  }
+]
