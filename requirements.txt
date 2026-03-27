@@ -1,4 +1,6 @@
 # Astro Runtime includes the following pre-installed providers packages: https://www.astronomer.io/docs/astro/runtime-image-architecture#provider-packages
-selenium==4.18.1
+# selenium==4.18.1
 beautifulsoup4==4.12.3
 pandas
+setuptools
+selenium==4.7.2
