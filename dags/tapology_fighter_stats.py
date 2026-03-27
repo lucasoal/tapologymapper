@@ -4,7 +4,8 @@ from datetime import datetime
 import pandas as pd
 from airflow.decorators import dag, task
 
-from include.src.ingestion.pipeline_fighter_stats import Scraper, TapologyParser, load_json_data
+from include.src.ingestion.pipeline_fighter_stats import TapologyParserFighterStats, load_json_data
+from include.src.utils.scrapper import Scraper
 
 
 @dag(
@@ -13,7 +14,7 @@ from include.src.ingestion.pipeline_fighter_stats import Scraper, TapologyParser
     schedule=None,
     catchup=False,
     tags=["tapology", "fighter", "stats"],
-    max_active_tasks=3,
+    max_active_tasks=2,
 )
 def mma_dag():
     """
@@ -64,7 +65,7 @@ def mma_dag():
             if not html:
                 return None
 
-            parser = TapologyParser(html)
+            parser = TapologyParserFighterStats(html)
             return parser.parse_all(fighter_entry["fighter"])
 
         finally:

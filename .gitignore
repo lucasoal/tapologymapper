@@ -1,10 +1,11 @@
+*.csv
+*.png
+*.xlsx
 .DS_Store
 .env
 .git
 .venv
 .vscode/
-*.csv
-*.xlsx
 __pycache__/
 airflow-webserver.pid
 airflow.cfg
