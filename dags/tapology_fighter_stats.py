@@ -4,7 +4,11 @@ from datetime import datetime
 import pandas as pd
 from airflow.decorators import dag, task
 
-from include.src.ingestion.pipeline_fighter_stats import TapologyParserFighterStats, load_json_data
+from include.src.ingestion.pipeline_fighter_stats import (
+    TapologyParserFighterStats,
+    load_json_data,
+)
+from include.src.utils.load_postgres import PostgresLoader
 from include.src.utils.scrapper import Scraper
 
 
@@ -103,26 +107,56 @@ def mma_dag():
 
         # Persistência - Fighters
         df_fighters = pd.DataFrame(fighters_list)
-        path_fighters = os.path.join(base_path, f"include/data/bronze/fighters_{dtm}.csv")
+        path_fighters = os.path.join(base_path, f"include/data/bronze/fighters.csv")
         os.makedirs(os.path.dirname(path_fighters), exist_ok=True)
         df_fighters.to_csv(path_fighters, index=False)
 
         # Persistência - Fights
         df_fights = pd.DataFrame(fights_list)
-        path_fights = os.path.join(base_path, f"include/data/bronze/fights_{dtm}.csv")
+        path_fights = os.path.join(base_path, f"include/data/bronze/fights.csv")
         df_fights.to_csv(path_fights, index=False)
 
-        return f"Arquivos salvos para {len(fighters_list)} lutadores."
+        return f"Arquivos salvos para {len(fighters_list)} lutadores." @ task
+
+    @task
+    def load_to_postgres_task(file_paths: dict):
+        """
+        Consome os caminhos dos CSVs gerados e os carrega no PostgreSQL.
+        """
+        loader = PostgresLoader(conn_id="postgresql_local")
+
+        # Carrega a tabela de Lutadores (Fighters)
+        loader.load_to_db(csv_path=file_paths["fighters"], schema="bronze", table_name="fighters")
+
+        # Carrega a tabela de Lutas (Fights)
+        loader.load_to_db(csv_path=file_paths["fights"], schema="bronze", table_name="fights")
+
+        return "Ingestão na camada Bronze finalizada com sucesso."
 
     # ========================
     # Orquestração
-    # ========================
-    fighters_to_process = read_json_task()
+    # ========================#
+    # 1. Extração da lista de lutadores do JSON
+    # fighters_to_process = read_json_task()
 
-    # Dynamic Task Mapping (paralelismo por lutador)
-    mapped_results = scrape_and_parse_task.expand(fighter_entry=fighters_to_process)
+    # 2. Scraping e Parsing (Dynamic Task Mapping com limite de concorrência)
+    # Cada tarefa abre um Chrome, processa e retorna um dicionário
+    # mapped_results = scrape_and_parse_task.expand(fighter_entry=fighters_to_process)
 
-    save_data_task(mapped_results)
+    # 3. Persistência em Sistema de Arquivos (Camada Bronze - Arquivos CSV)
+    # Retorna um dicionário com os caminhos dos arquivos gerados: {"fighters": "path/to/csv", "fights": "path/to/csv"}
+    # file_paths = save_data_task(mapped_results)
+
+    # 4. Ingestão no PostgreSQL (Camada Bronze - Tabelas SQL)
+    # Envia os arquivos salvos para o schema 'bronze' do banco 'tapologymapper'
+    # load_to_postgres_task(file_paths)
+    load_to_postgres_task(
+        {
+            "fighters": "/usr/local/airflow/include/data/bronze/fighters.csv",
+            "fights": "/usr/local/airflow/include/data/bronze/fights.csv",
+        }
+    )
 
 
+# Instancia a DAG
 mma_dag()
