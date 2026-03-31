@@ -1,5 +1,6 @@
-name: Astro CI
+name: Astro CI - Tapology Mapper
 
+# O gatilho: roda em todo push ou pull request na branch main
 on:
   push:
     branches: [main, master]
@@ -7,16 +8,40 @@ on:
     branches: [main]
 
 jobs:
-  build_and_test:
+  qualidade_e_validacao:
     runs-on: ubuntu-latest
-    steps:
-      - name: Checkout Code
-        uses: actions/checkout@v3
 
+    steps:
+      # 1. Baixa o código do seu repositório para a máquina virtual do GitHub
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      # 2. Configura o Python na versão que você usa no Astro (3.12)
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip" # Acelera os próximos runs salvando o cache das libs
+
+      # 3. Instala as dependências de linting e as do seu projeto
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install black pytest
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
+      # 4. Verifica a formatação com Black
+      # O --check faz o pipeline falhar se o código não estiver formatado
+      - name: Check formatting with Black
+        run: black --check .
+
+      # 5. Instala o Astro CLI para validar as DAGs
       - name: Install Astro CLI
         run: |
           curl -sSL install.astronomer.io | sudo bash -s
 
-      - name: Parse DAGs (Astro Parse)
+      # 6. O teste principal: Airflow DAG Parse
+      # Ele verifica se há erros de import, sintaxe ou lógica básica nas DAGs
+      - name: Astro Dev Parse
         run: |
           astro dev parse
