@@ -126,10 +126,14 @@ def mma_dag():
         loader = PostgresLoader(conn_id="postgresql_local")
 
         # Carrega a tabela de Lutadores (Fighters)
-        loader.load_to_db(csv_path=file_paths["fighters"], schema="bronze", table_name="fighters")
+        loader.load_to_db(
+            csv_path=file_paths["fighters"], schema="bronze", table_name="fighters"
+        )
 
         # Carrega a tabela de Lutas (Fights)
-        loader.load_to_db(csv_path=file_paths["fights"], schema="bronze", table_name="fights")
+        loader.load_to_db(
+            csv_path=file_paths["fights"], schema="bronze", table_name="fights"
+        )
 
         return "Ingestão na camada Bronze finalizada com sucesso."
 

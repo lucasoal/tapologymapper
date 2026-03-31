@@ -64,7 +64,10 @@ class Scraper:
             sleep(5)
 
             # Screenshot para inspeção em caso de erro
-            screenshot_path = os.path.join(os.getenv("AIRFLOW_HOME", "/usr/local/airflow"), "include/data/debug.png")
+            screenshot_path = os.path.join(
+                os.getenv("AIRFLOW_HOME", "/usr/local/airflow"),
+                "include/data/debug.png",
+            )
             self.driver.save_screenshot(screenshot_path)
 
             return self.driver.page_source

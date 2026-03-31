@@ -14,7 +14,13 @@ class PostgresLoader:
             df = pd.read_csv(csv_path)
             engine = self.hook.get_sqlalchemy_engine()
 
-            df.to_sql(name=table_name, con=engine, schema=schema, if_exists="replace", index=False)
+            df.to_sql(
+                name=table_name,
+                con=engine,
+                schema=schema,
+                if_exists="replace",
+                index=False,
+            )
             logging.info(f"Sucesso: {len(df)} linhas em {schema}.{table_name}")
         except Exception as e:
             logging.error(f"Falha na carga: {e}")

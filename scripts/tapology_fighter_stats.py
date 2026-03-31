@@ -14,7 +14,9 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 
 # Configurações de Log e Alertas
-logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
+logging.basicConfig(
+    level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
+)
 warnings.filterwarnings("ignore")
 
 DTM_TODAY = ""  # datetime.now().strftime("%Y%m%d%H%M%S")
@@ -90,7 +92,9 @@ class TapologyParser:
             tag = self.soup.find("li", id=f"{stat_type}RecordStats")
             if tag:
                 sec = tag.find("div", class_="secondary")
-                stats[f"{stat_type.upper()} Stats"] = sec.get_text(strip=True) if sec else "N/A"
+                stats[f"{stat_type.upper()} Stats"] = (
+                    sec.get_text(strip=True) if sec else "N/A"
+                )
         return stats
 
     def parse_fight_results(self) -> list:
@@ -170,14 +174,28 @@ def main():
 
             # Salvar imediatamente no CSV dos lutadores
             df_fighter = pd.DataFrame([details])
-            df_fighter.to_csv(FILE_FIGHTERS, mode="a", index=False, header=first_fighter, encoding="utf-8")
+            df_fighter.to_csv(
+                FILE_FIGHTERS,
+                mode="a",
+                index=False,
+                header=first_fighter,
+                encoding="utf-8",
+            )
             first_fighter = False
 
             # Salvar as lutas
             if fights:
                 df_fights = pd.DataFrame(fights)
-                df_fights["Main Fighter"] = name  # Garantir que a coluna "Main Fighter" seja adicionada aqui
-                df_fights.to_csv(FILE_FIGHTS, mode="a", index=False, header=first_fight, encoding="utf-8")
+                df_fights["Main Fighter"] = (
+                    name  # Garantir que a coluna "Main Fighter" seja adicionada aqui
+                )
+                df_fights.to_csv(
+                    FILE_FIGHTS,
+                    mode="a",
+                    index=False,
+                    header=first_fight,
+                    encoding="utf-8",
+                )
                 first_fight = False
 
             # Respeito ao servidor
