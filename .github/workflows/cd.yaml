@@ -10,6 +10,9 @@ on:
     # Permite que você clique em um botão no GitHub para forçar o deploy
     workflow_dispatch:
 
+env:
+    FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
+
 jobs:
     deploy_notebook:
         name: "Deploy no Servidor Local (Notebook)"
@@ -20,7 +23,7 @@ jobs:
 
         steps:
             - name: 1. Checkout do Código Atualizado
-              uses: actions/checkout@v4
+              uses: actions/checkout@v5
 
             - name: 2. Parar Containers Atuais
               run: |

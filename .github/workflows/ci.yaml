@@ -6,13 +6,16 @@ on:
     pull_request:
         branches: [main]
 
+env:
+    FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
+
 jobs:
     # JOB 1: Verifica apenas a estética (Black)
     check_style:
         name: "1. Linting (Black)"
         runs-on: ubuntu-latest
         steps:
-            - uses: actions/checkout@v4
+            - uses: actions/checkout@v5
             - name: Install Black
               run: pip install black
             - name: Check formatting
@@ -24,7 +27,7 @@ jobs:
         needs: check_style
         runs-on: ubuntu-latest
         steps:
-            - uses: actions/checkout@v4
+            - uses: actions/checkout@v5
             - name: Set up Python
               uses: actions/setup-python@v5
               with:
@@ -40,7 +43,7 @@ jobs:
         needs: check_dependencies
         runs-on: ubuntu-latest
         steps:
-            - uses: actions/checkout@v4
+            - uses: actions/checkout@v5
             - name: Set up Python
               uses: actions/setup-python@v5
               with:
@@ -59,7 +62,7 @@ jobs:
         needs: unit_tests
         runs-on: ubuntu-latest
         steps:
-            - uses: actions/checkout@v4
+            - uses: actions/checkout@v5
             - name: Install Astro CLI
               run: curl -sSL install.astronomer.io | sudo bash -s
             - name: Astro Dev Parse
