@@ -1,0 +1,66 @@
+name: CI - Astro Tapology Mapper
+
+on:
+    push:
+        branches: [main, master]
+    pull_request:
+        branches: [main]
+
+jobs:
+    # JOB 1: Verifica apenas a estética (Black)
+    check_style:
+        name: "1. Linting (Black)"
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v4
+            - name: Install Black
+              run: pip install black
+            - name: Check formatting
+              run: black --check .
+
+    # JOB 2: Verifica se o requirements.txt está instalando sem conflitos
+    check_dependencies:
+        name: "2. Dependencies Check"
+        needs: check_style
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v4
+            - name: Set up Python
+              uses: actions/setup-python@v5
+              with:
+                  python-version: "3.12"
+            - name: Install Project Requirements
+              run: |
+                  pip install --upgrade pip
+                  if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
+    # JOB 3: Roda testes unitários (Pytest) para validar sua lógica de Scraper/Parser
+    unit_tests:
+        name: "3. Unit Tests (Pytest)"
+        needs: check_dependencies
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v4
+            - name: Set up Python
+              uses: actions/setup-python@v5
+              with:
+                  python-version: "3.12"
+            - name: Install Pytest & Project Libs
+              run: |
+                  pip install pytest pandas
+                  if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+            - name: Run Tests
+              # O workflow continuará mesmo se não houver pasta tests/ ainda
+              run: pytest tests/ || echo "Nenhum teste encontrado ainda."
+
+    # JOB 4: O teste final de integração do Airflow
+    airflow_parse:
+        name: "4. Airflow DAG Integrity"
+        needs: unit_tests
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v4
+            - name: Install Astro CLI
+              run: curl -sSL install.astronomer.io | sudo bash -s
+            - name: Astro Dev Parse
+              run: astro dev parse

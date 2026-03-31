@@ -1,0 +1,42 @@
+name: CD - Deploy Tapology Mapper
+
+on:
+    # Opcional: Só dispara o CD se o workflow de CI passar com sucesso
+    workflow_run:
+        workflows: ["CI - Astro Tapology Mapper"]
+        types: [completed]
+        branches: [main, master]
+
+    # Permite que você clique em um botão no GitHub para forçar o deploy
+    workflow_dispatch:
+
+jobs:
+    deploy_notebook:
+        name: "Deploy no Servidor Local (Notebook)"
+        # Roda apenas se o CI anterior terminou com sucesso
+        if: ${{ github.event.workflow_run.conclusion == 'success' || github.event_name == 'workflow_dispatch' }}
+        # CRITICAL: Aqui você usa a label que configurou no seu notebook
+        runs-on: self-hosted
+
+        steps:
+            - name: 1. Checkout do Código Atualizado
+              uses: actions/checkout@v4
+
+            - name: 2. Parar Containers Atuais
+              run: |
+                  astro dev stop
+              # Se o Astro não estiver rodando, o comando acima pode falhar.
+              # O 'continue-on-error' evita que o CD pare por isso.
+              continue-on-error: true
+
+            - name: 3. Iniciar Airflow com Novo Código
+              run: |
+                  astro dev start
+              # Este comando vai reconstruir a imagem Docker com os novos arquivos
+              # e subir os containers no seu notebook.
+
+            - name: 4. Health Check do Airflow
+              run: |
+                  echo "Aguardando inicialização..."
+                  sleep 30
+                  curl -f http://localhost:8080/health || exit 1
