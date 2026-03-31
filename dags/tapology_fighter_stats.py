@@ -141,25 +141,25 @@ def mma_dag():
     # Orquestração
     # ========================#
     # 1. Extração da lista de lutadores do JSON
-    # fighters_to_process = read_json_task()
+    fighters_to_process = read_json_task()
 
     # 2. Scraping e Parsing (Dynamic Task Mapping com limite de concorrência)
     # Cada tarefa abre um Chrome, processa e retorna um dicionário
-    # mapped_results = scrape_and_parse_task.expand(fighter_entry=fighters_to_process)
+    mapped_results = scrape_and_parse_task.expand(fighter_entry=fighters_to_process)
 
     # 3. Persistência em Sistema de Arquivos (Camada Bronze - Arquivos CSV)
     # Retorna um dicionário com os caminhos dos arquivos gerados: {"fighters": "path/to/csv", "fights": "path/to/csv"}
-    # file_paths = save_data_task(mapped_results)
+    file_paths = save_data_task(mapped_results)
 
     # 4. Ingestão no PostgreSQL (Camada Bronze - Tabelas SQL)
     # Envia os arquivos salvos para o schema 'bronze' do banco 'tapologymapper'
-    # load_to_postgres_task(file_paths)
-    load_to_postgres_task(
-        {
-            "fighters": "/usr/local/airflow/include/data/bronze/fighters.csv",
-            "fights": "/usr/local/airflow/include/data/bronze/fights.csv",
-        }
-    )
+    load_to_postgres_task(file_paths)
+    # load_to_postgres_task(
+    #     {
+    #         "fighters": "/usr/local/airflow/include/data/bronze/fighters.csv",
+    #         "fights": "/usr/local/airflow/include/data/bronze/fights.csv",
+    #     }
+    # )
 
 
 # Instancia a DAG
